@@ -23,17 +23,42 @@
     font-family: 'Megrim';
     margin-right: 0.5rem;}
     @media screen and (min-width: 64em) {
-      .per-details{ font-size: 1rem;}
+      .per-details{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 5rem;
+      }
       .per-name {
-        font-size: 5.25rem; } }
+        font-size: 5.25rem;
+        padding-bottom: 5rem;
+        padding-left: 5rem;
+      }
+    }
     @media screen and (min-width: 42em) and (max-width: 64em) {
-      .per-details{ font-size: 0.5rem;}
+      .per-details{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 5rem;
+      }
       .per-name {
-        font-size: 3.25rem; } }
+        font-size: 3.25rem;
+        padding-bottom: 3rem;
+        padding-left: 3rem;
+      }
+    }
     @media screen and (max-width: 42em) {
-      .per-details{ font-size: 0.2rem;}
+      .per-details{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 5rem;
+      }
       .per-name {
-        font-size: 2.75rem; } }
+        font-size: 2.75rem;
+        padding-bottom: 3rem;
+        padding-left: 3rem;
+      }
+    }
+  }
 
 .per-details{
   text-align: left;
