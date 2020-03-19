@@ -8,7 +8,6 @@
     display: inline;
     font-family: 'Raleway';
     color: #fff;
-    padding-bottom: 2rem;
   }
 
   li {
@@ -21,8 +20,8 @@
 
   li a{
     color: #fff;
-    padding-left: 0.5rem;
-    padding-right: 5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
     display: inline;
     text-align: center;
   }
@@ -34,6 +33,7 @@
     border-width: 0.1rem;
     border-radius: 1rem;
     padding-right:-5rem;
+    border-collapse: collapse;
   }
 
   .cheese {
@@ -43,55 +43,71 @@
   }
   .per-name {
     text-align: left;
-    margin-top: 0.5rem;
-    padding-top:2rem;
     font-family: 'Megrim';
     margin-right: 0.5rem;}
-    @media screen and (min-width: 64em) {
-      .per-details{
-        font-size: 1rem;
-        padding-bottom: 1rem;
-      }
-      .per-name {
-        font-size: 5.25rem;
-        padding-bottom: 5rem;
-      }
-    }
-    @media screen and (min-width: 42em) and (max-width: 64em) {
-      .per-details{
-        font-size: 1rem;
-        padding-bottom: 1rem;
-      }
-      .per-name {
-        font-size: 3.25rem;
-        padding-bottom: 3rem;
-      }
-    }
-    @media screen and (max-width: 42em) {
-      .per-details{
-        font-size: 1rem;
-        padding-bottom: 1rem;
-      }
-      .per-name {
-        font-size: 2.75rem;
-        padding-bottom: 3rem;
-      }
-    }
+
+@media screen and (min-width: 64em)
+{
+  .per-details
+  {
+    font-size: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 0.5rem;
+    font-family: "Raleway";
   }
 
-.per-details{
-  text-align: left;
-  margin-top: 1rem;
-  padding-left: 5rem;
-  font-family: 'Comfortaa';}
+  .per-name
+  {
+    font-size: 7.25rem;
+  }
 
-.per-media{
+}
+
+
+@media screen and (min-width: 42em) and (max-width: 64em)
+{
+  .per-details
+  {
+    font-size: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    font-family: "Raleway";
+  }
+
+  .per-name
+  {
+    font-size: 3.25rem;
+  }
+
+}
+
+@media screen and (max-width: 42em)
+{
+  .per-details
+  {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    font-family: "Raleway";
+  }
+
+  .per-name
+  {
+    font-size: 2.75rem;
+  }
+
+}
+
+.per-media
+{
   display: inline;
   align-items: flex-end;
   position: relative; left:15rem;
   filter: invert();
   margin-top: 0.5rem;
-  margin-right: 0.5rem;}
+  margin-right: 0.5rem;
+}
+
   @media screen and (min-width: 64em) {
     .per-media{
       width: 5.25rem; top: 0.5rem } }
@@ -101,7 +117,6 @@
   @media screen and (max-width: 42em) {
     .per-media {
       width: 2.75rem; top: 0.2rem } }
-}
 
 body {
   padding: 0;
