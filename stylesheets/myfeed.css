@@ -18,6 +18,8 @@
   word-wrap: normal;
   list-style-type: square;
   margin-bottom: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;;
 }
 .rss-box a {
   font-size: 15px;
@@ -52,6 +54,7 @@ ul.rss-items{
   padding: 2px;
   color: #FFFFF;
   text-decoration: underline;
+
 }
 
 .rss-msg {
@@ -62,8 +65,7 @@ ul.rss-items{
   border: 2px solid #FFFFFF;
   letter-spacing: 1px;
   margin-bottom: 10px;
-  padding-top:5px;
-  padding-left:6px;
+  padding:0.5rem;
 }
 
 .rss-msg p {
