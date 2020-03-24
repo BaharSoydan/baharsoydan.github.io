@@ -1,0 +1,76 @@
+
+.twitter-feed {
+  border: 2px solid #FFFFFF ;
+  border-bottom: 3px solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 499px;
+}
+
+.rss-box {
+  font-size: 10px;
+  font-weight: lighter;
+  background-color: transparent;
+  opacity: 1;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  padding-top: 3px;
+  word-wrap: normal;
+  list-style-type: square;
+  margin-bottom: 10px;
+}
+.rss-box a {
+  font-size: 15px;
+  opacity: 1;
+  font-weight: normal;
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+ul.rss-items{
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 15px;
+  font-family: "Courier New" margin-top:0px;
+  margin-left: 0px;
+  color: #FFFFFF;
+}
+
+.rss-date {
+  font-size: 0%;
+  font-weight: normal;
+  color: transparent;
+}
+
+.rss-title, rss_title a {
+  font-family: "Courier New"
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 10px;
+  margin: 0px 0;
+  margin-bottom: 0.5em;
+  padding: 2px;
+  color: #FFFFF;
+  text-decoration: underline;
+}
+
+.rss-msg {
+  height: 40px;
+  font-size: 10px;
+  background-color: transparent;
+  opacity: 1;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  padding-top:5px;
+  padding-left:6px;
+}
+
+.rss-msg p {
+  font-size: 13px;
+  opacity: 1;
+  font-weight: normal;
+  color: #FFFFFF;
+}
